@@ -1,0 +1,7 @@
+sed -i '' 's/\*\*Interviewer:\*\*/interviewer:/g' single_openai_interviews.jsonl
+sed -i '' 's/\*\*Candidate:\*\*/candidate:/g' single_openai_interviews.jsonl
+grep -F '\n\n'
+sed -i '' 's/\\n\\n/\\n/g' single_openai_interviews.jsonl
+sed -i '' 's/\\n\\n/\\n/g' single_groq_versatile_interviews.jsonl
+
+
